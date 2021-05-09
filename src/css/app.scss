@@ -1,1 +1,33 @@
 // app global css in SCSS form
+
+@font-face {
+  font-family: PenelopeAnne;
+  src: url("../assets/fonts/Penelope-Anne.ttf");
+  font-weight: bold;
+}
+
+*{
+  border: 0 solid transparent !important;
+  clear: both;
+}
+
+div, a{
+  font-family: PenelopeAnne, sans-serif;
+  font-size: 21px;
+  font-weight: bold;
+  color: white;
+}
+
+.img-licor-drawer {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-image:
+    linear-gradient(
+        rgba(70, 34, 0, 0.70),
+        rgba(0, 0, 0, 0.70)
+    ),
+    url("../assets/img/vegan-wine-club.webp")!important;
+  background-repeat: no-repeat;
+  background-position: center;
+}
