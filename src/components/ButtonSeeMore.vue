@@ -1,12 +1,12 @@
 <template>
-  <div class="text-center">
+  <div class="text-center q-mt-xl-xl">
     <div class="justify-center content-center">
       <div>
         <div>
           <q-btn rounded class="see-more" label="Ver mas..." />
         </div>
         <div>
-          <q-icon class="expand-more" name="expand_more" size="md" />
+          <q-icon class="expand-more slide-bottom" name="expand_more" size="md" />
         </div>
       </div>
     </div>

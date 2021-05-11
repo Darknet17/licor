@@ -1,6 +1,6 @@
 <template>
 <q-page class="flex flex-center">
-    <div class="text-center">
+    <div class="text-center q-my-xl">
       <div class="q-px-xl">
         <span>“Usa tus sentidos para entender como te ves y como ves al mundo que te rodea.”</span>
       </div>
@@ -12,7 +12,7 @@
         </div>
       </div>
     </div>
-    <div>
+    <div class="q-mt-xl-xl">
       <ButtonSeeMore></ButtonSeeMore>
     </div>
 </q-page>

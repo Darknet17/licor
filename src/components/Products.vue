@@ -13,7 +13,7 @@
           <q-btn flat rounded style="color: #894819; font-size: 18px; font-weight: bold;" label="Ver mas.." />
         </div>
         <div>
-          <q-icon class="expand-more" style="color: #894819; font-weight: bold;" name="expand_more" size="md" />
+          <q-icon class="expand-more slide-bottom" style="color: #894819; font-weight: bold;" name="expand_more" size="md" />
         </div>
       </div>
     </div>
