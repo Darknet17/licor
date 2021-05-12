@@ -5,9 +5,9 @@
           <span class="q-ml-md">&copy; Licores Artesanales Ajne {{ getYear() }}</span>
         </div>
         <div>
-          <a href="#"><q-icon name="fab fa-whatsapp" class="q-mr-md"></q-icon></a>
-          <a href="#"><q-icon name="fab fa-instagram" class="q-mr-md"></q-icon></a>
-          <a href="#"><q-icon name="fab fa-facebook" class="q-mr-md"></q-icon></a>
+          <a href="https://api.whatsapp.com/send?phone=809000000" target="_blank"><q-icon name="fab fa-whatsapp" class="q-mr-md"></q-icon></a>
+          <a href="https://www.instagram.com/" target="_blank"><q-icon name="fab fa-instagram" class="q-mr-md"></q-icon></a>
+          <a href="https://www.facebook.com/" target="_blank"><q-icon name="fab fa-facebook" class="q-mr-md"></q-icon></a>
         </div>
     </div>
   </div>
@@ -26,5 +26,7 @@ export default {
 </script>
 
 <style scoped>
-
+  a {
+    text-decoration: none;
+  }
 </style>
