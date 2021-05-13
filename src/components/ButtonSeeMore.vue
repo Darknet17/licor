@@ -3,7 +3,7 @@
     <div class="justify-center content-center">
       <div>
         <div>
-          <q-btn rounded class="see-more" label="Ver mas..." @click="action" />
+          <q-btn rounded :to="ancle" class="see-more" label="Ver mas..." @click="action" />
         </div>
         <div>
           <q-icon class="expand-more slide-bottom" name="expand_more" size="md" />
@@ -16,6 +16,12 @@
 <script>
 export default {
   name: "ButtonSeeMore",
+  props: {
+    ancle: {
+        type: Object,
+        default: null
+      }
+  },
   methods: {
     action(){
       this.$emit('action');
