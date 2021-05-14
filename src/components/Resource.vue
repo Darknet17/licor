@@ -6,10 +6,10 @@
         </div>
         <div class="q-ma-md">
           <div>
-            <a href="https://drive.google.com/file/d/1x9DHWEZpvFq_E6SUtWhD4rwQ6eTerxjR/view?usp=sharing">Pruebas de Calidad</a>
+            <a href="https://drive.google.com/file/d/1x9DHWEZpvFq_E6SUtWhD4rwQ6eTerxjR/view?usp=sharing" target="_blank">Pruebas de Calidad</a>
           </div>
           <div>
-            <a href="https://drive.google.com/file/d/1P05T-OqSwZ22Eyr7aGNYtEW2xR_oPFbI/view?usp=sharing">Manual de Proceso</a>
+            <a href="https://drive.google.com/file/d/1P05T-OqSwZ22Eyr7aGNYtEW2xR_oPFbI/view?usp=sharing " target="_blank">Manual de Proceso</a>
           </div>
         </div>
       </div>
