@@ -1,6 +1,6 @@
 <template>
   <q-page class="flex flex-center">
-    <div style="background: #F9EADC;">
+    <div style="background: #f9eadc;" id="productos">
       <div class="text-center"><span style="color:#894819; font-size: 35px; font-weight: bold;">Productos</span></div>
       <div class="row justify-between">
         <div><img class="product" src="../assets/img/Artboard-1xxx-hdpi.png" alt="Artboard-1xxx-hdpi"></div>
@@ -22,7 +22,24 @@
 
 <script>
 export default {
-  name: "Products"
+  name: "Products",
+  methods: {
+    anchorHashCheck() {
+      try {
+        setTimeout(() => {
+          if (window.location.hash === this.$route.hash) {
+            console.log('Products');
+            document.getElementById(this.$route.hash.slice(1)).scrollIntoView({
+              behavior: 'smooth'
+            });
+          }
+        } , 1000);
+      }catch (e) {}
+    },
+  },
+  mounted() {
+    //this.anchorHashCheck()
+  },
 }
 </script>
 

@@ -1,6 +1,6 @@
 <template>
   <q-layout view="lHh Lpr lFf">
-    <div class="img-licor">
+    <div class="img-licor" id="inicio">
       <div class="full-width row wrap justify-around items-stretch content-between">
         <div class="q-mt-md">
           <img style="width: 130px;height: 130px;" src="../assets/img/Logo-marrón.png" alt="logo" />
@@ -109,19 +109,19 @@ const linksData = [
     title: 'Inicio',
     caption: '',
     icon: '',
-    link: '#'
+    link: '#inicio'
   },
   {
     title: 'Proceso de Fabricación',
     caption: '',
     icon: '',
-    link: '#'
+    link: '#fabrication-process'
   },
   {
     title: 'Productos',
     caption: '',
     icon: '',
-    link: '#'
+    link: '#productos'
   },
   {
     title: 'Contactos',
