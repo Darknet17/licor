@@ -5,8 +5,8 @@
           <span class="q-ml-md">&copy; Licores Artesanales Ajne {{ getYear() }}</span>
         </div>
         <div>
-          <a href="https://api.whatsapp.com/send?phone=809000000" target="_blank"><q-icon name="fab fa-whatsapp" class="q-mr-md"></q-icon></a>
-          <a href="https://www.instagram.com/" target="_blank"><q-icon name="fab fa-instagram" class="q-mr-md"></q-icon></a>
+          <a href="https://api.whatsapp.com/send?phone=18299708950" target="_blank"><q-icon name="fab fa-whatsapp" class="q-mr-md"></q-icon></a>
+          <a href="https://www.instagram.com/caliconsult/" target="_blank"><q-icon name="fab fa-instagram" class="q-mr-md"></q-icon></a>
           <a href="https://www.facebook.com/" target="_blank"><q-icon name="fab fa-facebook" class="q-mr-md"></q-icon></a>
         </div>
     </div>
