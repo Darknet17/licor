@@ -1,8 +1,8 @@
 <template>
-    <div style="background: #D76C1F;height: 237px;" >
+    <div style="background: #D76C1F;height: 237px;" id="recursos">
       <div>
         <div class="text-center">
-          <span style="font-size: 35px; font-weight: bold;">resource</span>
+          <span style="font-size: 35px; font-weight: bold;">Recursos</span>
         </div>
         <div class="q-ma-md">
           <div>

@@ -10,7 +10,10 @@
       </div>
       <div class="text-center">
         <div>
-          <q-btn flat rounded style="color: #894819; font-size: 18px; font-weight: bold;" label="Ver mas.." />
+          <q-btn flat
+                 rounded
+                 style="color: #894819; font-size: 18px; font-weight: bold;"
+                 label="Ver mas.." @click.native="anchorHashCheck" :to="{hash: '#recursos'}"/>
         </div>
         <div>
           <q-icon class="expand-more slide-bottom" style="color: #894819; font-weight: bold;" name="expand_more" size="md" />
@@ -28,7 +31,6 @@ export default {
       try {
         setTimeout(() => {
           if (window.location.hash === this.$route.hash) {
-            console.log('Products');
             document.getElementById(this.$route.hash.slice(1)).scrollIntoView({
               behavior: 'smooth'
             });
@@ -37,9 +39,7 @@ export default {
       }catch (e) {}
     },
   },
-  mounted() {
-    //this.anchorHashCheck()
-  },
+  mounted() {},
 }
 </script>
 
