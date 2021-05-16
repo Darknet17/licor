@@ -127,7 +127,7 @@ const linksData = [
     title: 'Contactos',
     caption: '',
     icon: '',
-    link: '#'
+    link: '#recursos'
   },
 ];
 

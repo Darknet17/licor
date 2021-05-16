@@ -20,9 +20,7 @@ export default {
   components: {
     ButtonSeeMore: () => import('src/components/ButtonSeeMore'),
   },
-  mounted() {
-    //this.anchorHashCheck();
-  },
+  mounted() {},
   methods: {
     async anchorHashCheck() {
       try {
